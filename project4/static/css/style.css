@@ -1,0 +1,50 @@
+.center {
+    margin:auto;
+    width:35%;
+    }
+.center2{
+    margin:auto;
+    width:50%;
+}
+.center3{
+    margin:auto;
+    width:80%;
+}
+
+.center4{
+    margin:auto;
+    width:25%;
+}
+
+.b{
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+}
+
+.text-color{
+    color:white
+}
+
+.bg-color{
+    background-color:#161e25
+}
+
+.font{
+    font-family:Cambria;
+}
+
+.font-size{
+    font-size: 24px;
+}
+
+.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.margin2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
