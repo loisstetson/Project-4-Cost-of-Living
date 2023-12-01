@@ -132,10 +132,40 @@ Key Points:
 This shows a horizontal bar plot is created to visualize the average annual family income across different US states. The resulting visualization is a horizontal bar plot that effectively communicates the average annual family income for each US state. The annotations provide specific values, and the color palette enhances the overall aesthetics of the plot. Overall, DC has the highest Average Annual Income and Mississippi has the lowest Average Annual Income.
 ![area plots](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/037a3914-65cb-4ac8-8b22-4d20ddbe1e87)
 
+Using Python's Matplotlib and Seaborn libraries to create a set of four area plots. The plots visualize the distribution of the 'total_cost' variable with respect to different features ('family_size', 'number_of_parents', 'family_size', 'number_of_children').
+The goal is to visually represent the distribution of 'total_cost' concerning different features, providing insights into the relationship between these variables. The color palette and the filled KDE plots enhance the visualization aesthetics.
+
+
 ![boxplots for every iteration](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/27a68395-f913-4cf9-837a-00ff1c36295e)
+A set of boxplots is created to visually represent the distribution of annual values for different features across different states.
+The visualizations provide insights into the distribution of annual values for various features, allowing for a comparative analysis across different states. Each subplot represents a different feature, and the boxplots within show the spread of values within each state.
+
+Our comprehensive analysis of the US Family Budget Dataset, a valuable resource offering detailed insights into the intricacies of the cost of living across diverse US counties. Derived from the Family Budget Calculator by the Economic Policy Institute (EPI), this dataset meticulously estimates the cost of living for ten distinct family types, ranging from single adults to families with up to four children, across all 1877 counties and metro areas in the United States.
+
+Our exploration goes beyond the surface, encompassing the development and exploration of a sophisticated machine learning model. This model represents a significant enhancement, providing predictive insights into the dynamics of cost of living based on various features.
+
+Aligned with our objectives, we engage in tasks that delve into the comparison of family budgets with federal poverty lines, uncovering the economic challenges faced by diverse family types. Our aim is to unravel the intricacies of the cost of living, offering valuable insights into real-world scenarios.
+
+One notable focus is the examination of the affordability of essential commodities such as housing, food, transportation, healthcare, and childcare across different counties. We are eager to share how family income correlates with the overall cost of living and whether specific counties impose higher costs on larger families.
+
+Our visualizations promise to be a captivating journey across states and major cities, providing a nuanced portrayal of the diverse landscape of living costs. In addition, we will address the crucial question of whether certain counties are affordable for families of varying sizes and compositions.
+
+As we embark on this informative expedition through the economic landscape of US counties, we aim not only to present data but also to unfold compelling narratives reflecting the living standards and economic security experienced by families across the nation.
+
+Moreover, our project is anchored by a clear problem statement and objective: to analyze the cost of living through the lens of a machine learning model. This involves the implementation of data cleaning, normalization, and standardization processes, leading to the development and optimization of a predictive model. Our model aims to achieve a meaningful level of predictive power, showcasing its efficacy in estimating the cost of living based on various features.
+
+Fasten your seatbelts for an enlightening voyage into the intersection of data and real-world insights. Let's delve into the rich tapestry of the economic landscape and unravel the stories that shape the lives of families across the nation.
+
 
 ![housing_cost_choropleth](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/4b5a02b0-b06b-4050-84e8-c74e41e62122)
 
+The provided choropleth map visualizes the average housing cost by state in the United States. The color intensity on the map represents the variation in housing costs across different states. The color scale enhances the visual distinction between states with higher and lower average housing costs.
+Key Findings:
+•	The map reveals geographical patterns in housing costs, with states exhibiting diverse cost distributions.
+•	Darker shades indicate higher average housing costs, while lighter shades represent lower costs.
+•	States with high housing costs are prominently highlighted, offering insights into regions where housing affordability may be a significant concern.
+•	Hovering over a state provides specific information on its average housing cost, allowing for a detailed exploration of individual states.
+Overall, this visualization aids in understanding the spatial distribution of housing costs across the U.S., enabling stakeholders/clients to identify areas with distinct affordability challenges and formulate targeted strategies based on regional variations.
 
 
 
