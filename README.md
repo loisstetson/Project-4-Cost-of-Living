@@ -75,3 +75,67 @@ The project focuses on leveraging machine learning for a comprehensive cost of l
    
 **Conclusion:**
 This project aims to create a robust machine learning model for cost of living analysis. The proposed timeline and responsibilities ensure a systematic approach to achieve the project objectives.
+
+
+Our initial cleaning, we started by dropping unnecessary columns, looking for missing values and dropping those rows with missing values, and also separating out the family member count column to create three new columns one to represent parents in the home, children in the home, and an overall family size amount column. Then we moved into exploring the dataset.
+
+
+**Histogram**
+Insights:
+•	Peaks and patterns in histograms can indicate central tendencies and variations in the data.
+•	Skewness or symmetry in distributions may be observed.
+•	Outliers or unusual patterns might be identified.
+Key Takeaways:
+•	Histograms are valuable for initial data exploration and understanding the spread of variables.
+•	They help identify data patterns, potential outliers, and insights into the data's central tendencies.
+Utilizing histograms is an essential step in the exploratory data analysis process, offering a visual overview of the dataset's distribution characteristics.
+
+![Histograms_for_distribution](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/9afae3bf-5574-4a36-9044-18881721353a)
+
+ 
+ 
+**Correlation Matrix**
+Using sns in python, we created a correlation matrix
+In the correlation matrix, The colors indicate the strength and direction of correlations, with warmer colors (reds) representing positive correlations and cooler colors (blues) representing negative correlations. The numerical annotations provide precise correlation values for each pair of variables. This visualization is crucial for identifying patterns and dependencies in the data.
+
+![correlation_matrix](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/f6990ce0-1be4-4ca4-8d3b-7803855cc265)
+
+
+**Correlation Plot**
+Presentation Explanation:
+•	Objective: The objective of this visualization is to explore the relationships and distributions between selected features in the dataset.
+•	Pair Plot: The pair plot provides a quick overview of the pairwise relationships between features. Each scatterplot shows how two variables interact with each other.
+•	Diagonal Plots (KDE): The diagonal plots represent the distribution of individual features using KDE. This helps in understanding the shape and spread of each variable's values.
+•	Off-Diagonal Plots: These scatterplots show the relationships between pairs of features. Patterns, trends, or clusters in these plots can indicate potential correlations or associations.
+Insights:
+•	Correlation Assessment: Look for patterns in the off-diagonal scatterplots to identify potential correlations between variables.
+•	Distribution Understanding: Diagonal KDE plots provide insights into the distribution of each feature, helping to understand the data's characteristics.
+Key Points:
+•	Title Clarity: The title 'Correlations' suggests a focus on relationships between variables.
+•	Visualizing Data Patterns: Pair plots are effective for visualizing multivariate patterns and can aid in feature selection and understanding data distributions.
+
+![correlation_plots](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/a348892d-f5e3-4713-8089-2d2963b942b6)
+
+
+**Machine Learning Model**
+
+![image](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/27f42ff1-6a91-4e80-8fa4-da9820e08b42)
+
+
+![image](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/07bc230d-3188-4ce0-864b-292a6b571ea7)
+
+![image](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/68186ed3-153f-411c-95cb-e3a2091e5277)
+
+**Analysis & Visualizations**
+
+![Average_income by state](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/6dfcd5ca-06a6-4dba-a82b-d0a9db87d3a0)
+This shows a horizontal bar plot is created to visualize the average annual family income across different US states. The resulting visualization is a horizontal bar plot that effectively communicates the average annual family income for each US state. The annotations provide specific values, and the color palette enhances the overall aesthetics of the plot. Overall, DC has the highest Average Annual Income and Mississippi has the lowest Average Annual Income.
+![area plots](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/037a3914-65cb-4ac8-8b22-4d20ddbe1e87)
+
+![boxplots for every iteration](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/27a68395-f913-4cf9-837a-00ff1c36295e)
+
+![housing_cost_choropleth](https://github.com/loisstetson/Project-4-Cost-of-Living/assets/127718619/4b5a02b0-b06b-4050-84e8-c74e41e62122)
+
+
+
+
